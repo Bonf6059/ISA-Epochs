@@ -4,6 +4,7 @@
 		<li IfModActive="det.epochsgolems">1.6/Mods/EpochsGolems</li>
    		<li IfModActiveAll="det.epochsgolems,det.epochspyrinth">1.6/Mods/EpochsGolems/Pyrinth</li>
 		<li IfModActive="det.epochsgolems,det.epochspottery">1.6/Mods/Clay</li>
+		<li IfModActive="det.epochspyrinth">1.6/Mods/EpochsPyrinth</li>
 	  <!--<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>-->
   </v1.6>
 </loadFolders>
