@@ -2,7 +2,7 @@
 	<v1.6>
 		<li>/</li>
 		<li IfModActive="det.epochsgolems">1.6/Mods/EpochsGolems</li>
-    <li IfModActive="det.epochsgolems,det.epochspyrinth">1.6/Mods/EpochsGolems/Pyrinth</li>
+   		<li IfModActive="det.epochsgolems,det.epochspyrinth">1.6/Mods/EpochsGolems/Pyrinth</li>
 	  <!--<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>-->
   </v1.6>
 </loadFolders>
