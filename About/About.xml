@@ -15,7 +15,11 @@
 		</li>
 	</modDependencies>-->
 	<loadAfter>
-		<li>det.</li>
+		<li>det.epochsgolems</li>
+		<li>det.epochspyrinth</li>
+		<li>det.epochspottery</li>
+		<li>det.epochstallow</li>
+		<li>det.epochsincense</li>
 	</loadAfter>
 	<packageId>ISA.Epochs</packageId>
 	<description>Enrich your experience with a new things and functionalities added to the Epochs mod series.</description>
