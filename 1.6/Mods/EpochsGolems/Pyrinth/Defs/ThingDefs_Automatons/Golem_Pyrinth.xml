@@ -55,8 +55,9 @@
 				<skillLossMulti>0</skillLossMulti>
 				<defaultSkillLevel>0</defaultSkillLevel>
 				<enabledWorkTypes>
-				    <li>Firefighter</li>
-			      <li>Cooking</li>
+					<li>Firefighter</li>
+			    	<li>Cooking</li>
+					<li>Hauling</li>
 				</enabledWorkTypes>
 				<skillSettings>
 					<li>
