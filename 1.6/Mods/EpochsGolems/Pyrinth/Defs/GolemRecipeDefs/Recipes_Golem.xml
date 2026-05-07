@@ -53,7 +53,7 @@
         <workAmount>2500</workAmount>
         <unfinishedThingDef>DV_UnfinishedGolem</unfinishedThingDef>
         <descriptionHyperlinks>
-            <ThingDef>DV_Golem_Pyrinth</ThingDef>
+            <ThingDef>ISA_Golem_Pyrinth</ThingDef>
         </descriptionHyperlinks>
         <ingredients>
             <li>
