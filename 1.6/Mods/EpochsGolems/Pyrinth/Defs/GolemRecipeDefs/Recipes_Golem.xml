@@ -5,9 +5,9 @@
         <defName>ISA_Golem_PyrinthBase</defName>
         <label>pyrinth golem</label>
         <description>Construct a pyrinth golem.</description>
-        <descriptionHyperlinks>
+        <!--<descriptionHyperlinks>
             <ThingDef>ISA_Golem_Pyrinth</ThingDef>
-        </descriptionHyperlinks>
+        </descriptionHyperlinks>    -->
         <thingClass>Building</thingClass>
         <graphicData>
             <texPath>UI/GolemIcons/UI_PyrinthGolem</texPath>
