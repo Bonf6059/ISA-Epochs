@@ -12,6 +12,8 @@ Patches and additions to the Epochs series by Detvisor.
       - Pyrinth
          Pyrinth pylons can grow plants
       - Golems
+         Added Pyrinth Golem that can cook and haul
+         Hay Golem can haul
          Added PyrinthHeart and CrioPyrinthHeart
          Reduced costs of a lot of researches
          Reduced skill level needed to produce anima dolls
