@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+	<!--workTypes
+			Crafting 
+            Mining 
+            Hauling 
+			Doctor 
+            Hunting
+            Construction 
+            Growing
+            BasicWorker 
+            Cooking
+            PlantCutting 
+            Research 
+            Cleaning 
+            Firefighter 
+            Tailoring 
+            Art
+            Smithing 
+            Warden 
+            Handling
+            Childcare
+            Fishing	-->
+
+	
 <!-- Add hauling job to hay golem -->
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="DV_Golem_Hay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/enabledWorkTypes</xpath>
 		<value>
       		<li>Hauling</li>
+			<li>Harvesting</li>
 		</value>
 	</Operation>
 
