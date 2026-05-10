@@ -30,7 +30,6 @@
 		<xpath>Defs/ThingDef[defName="DV_Golem_Hay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/enabledWorkTypes</xpath>
 		<value>
       		<li>Hauling</li>
-			<li>Harvesting</li>
 		</value>
 	</Operation>
 
