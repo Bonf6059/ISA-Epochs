@@ -4,9 +4,9 @@
 <!-- Add hauling job to hay golem -->
 	
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="DV_Golem_Hay"]/comps/enabledWorkTypes</xpath>
+		<xpath>Defs/ThingDef[defName="DV_Golem_Hay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/enabledWorkTypes</xpath>
 		<value>
-      <li>Hauling</li>
+      		<li>Hauling</li>
 		</value>
 	</Operation>
 
