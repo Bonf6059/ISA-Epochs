@@ -13,12 +13,13 @@
 		<!-- IfModActiveAll -->
 		<li IfModActiveAll="det.epochsgolems,det.epochspyrinth">1.6/Mods/EpochsGolems/Pyrinth</li>
 		
-		<li IfModActiveAll="det.epochspottery,ISA.RandomPatches">1.6/Mods/Clay/MineralTrader</li>
-		<li IfModActiveAll="det.epochspyrinth,ISA.RandomPatches">1.6/Mods/EpochsPyrinth/MineralTrader</li>
-		<li IfModActiveAll="det.epochsgolems,ISA.RandomPatches">1.6/Mods/Clay/MineralTrader</li>
-		<li IfModActiveAll="det.epochspottery,ISA.sbdelights">1.6/Mods/Clay/MineralTrader</li>
-		<li IfModActiveAll="det.epochspyrinth,ISA.sbdelights">1.6/Mods/EpochsPyrinth/MineralTrader</li>
-		<li IfModActiveAll="det.epochsgolems,ISA.sbdelights">1.6/Mods/Clay/MineralTrader</li>
+		<li IfModActiveAll="det.epochspottery,ISA.RandomPatches">1.6/Mods/MineralTrader/Clay</li>
+		<li IfModActiveAll="det.epochspyrinth,ISA.RandomPatches">1.6/Mods/MineralTrader/Pyrinth</li>
+		<li IfModActiveAll="det.epochsgolems,ISA.RandomPatches">1.6/Mods/MineralTrader/Clay</li>
+		
+		<li IfModActiveAll="det.epochspottery,ISA.sbdelights">1.6/Mods/MineralTrader/Clay</li>
+		<li IfModActiveAll="det.epochspyrinth,ISA.sbdelights">1.6/Mods/MineralTrader/Pyrinth</li>
+		<li IfModActiveAll="det.epochsgolems,ISA.sbdelights">1.6/Mods/MineralTrader/Clay</li>
 
 		
   </v1.6>
