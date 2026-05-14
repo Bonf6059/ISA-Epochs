@@ -6,6 +6,10 @@ Patches and additions to the Epochs series by Detvisor.
 
 # Old updates
 
+14/02/2026
+
+- Clay golems can handle animals but lost the ability to mine
+
 06/05/2026
 - Initial release:
   
