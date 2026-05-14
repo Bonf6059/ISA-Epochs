@@ -36,10 +36,14 @@
         <spawnThingOnRemoved>ISA_Golem_CriopyrinthHeart</spawnThingOnRemoved>
         <stages>
             <li>
-		        	<statFactors>
-				        <IncomingDamageFactor>1.1</IncomingDamageFactor>
-			          <ComfyTemperatureMax>1.5</ComfyTemperatureMax>
-              </statFactors>
+		    	<statFactors>
+					<IncomingDamageFactor>1.1</IncomingDamageFactor>
+            	</statFactors>
+            </li>
+			<li>
+                <statOffsets>
+                	<ComfyTemperatureMax>20</ComfyTemperatureMax>
+            	</statOffsets>
             </li>
         </stages>
         <comps>
