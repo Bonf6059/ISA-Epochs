@@ -49,4 +49,14 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DV_Golem_Clay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/skillSettings</xpath>
+		<value>
+			<li>
+				<skill>Animals</skill>
+				<level>6</level>
+			</li>
+		</value>
+	</Operation>
+
 </Patch>
