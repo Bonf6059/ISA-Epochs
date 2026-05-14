@@ -1,10 +1,25 @@
 <loadFolders>
 	<v1.6>
 		<li>/</li>
+
+		<!-- IfModActive -->
 		<li IfModActive="det.epochsgolems">1.6/Mods/EpochsGolems</li>
-   		<li IfModActiveAll="det.epochsgolems,det.epochspyrinth">1.6/Mods/EpochsGolems/Pyrinth</li>
 		<li IfModActive="det.epochsgolems,det.epochspottery">1.6/Mods/Clay</li>
 		<li IfModActive="det.epochspyrinth">1.6/Mods/EpochsPyrinth</li>
-	  <!--<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>-->
+
+		<!-- IfModNotActive -->
+	<!--<li IfModNotActive="ISA.Medieval">1.6/Mods/StandaloneCoal</li>-->
+		
+		<!-- IfModActiveAll -->
+		<li IfModActiveAll="det.epochsgolems,det.epochspyrinth">1.6/Mods/EpochsGolems/Pyrinth</li>
+		
+		<li IfModActiveAll="det.epochspottery,ISA.RandomPatches">1.6/Mods/Clay/MineralTrader</li>
+		<li IfModActiveAll="det.epochspyrinth,ISA.RandomPatches">1.6/Mods/EpochsPyrinth/MineralTrader</li>
+		<li IfModActiveAll="det.epochsgolems,ISA.RandomPatches">1.6/Mods/Clay/MineralTrader</li>
+		<li IfModActiveAll="det.epochspottery,ISA.sbdelights">1.6/Mods/Clay/MineralTrader</li>
+		<li IfModActiveAll="det.epochspyrinth,ISA.sbdelights">1.6/Mods/EpochsPyrinth/MineralTrader</li>
+		<li IfModActiveAll="det.epochsgolems,ISA.sbdelights">1.6/Mods/Clay/MineralTrader</li>
+
+		
   </v1.6>
 </loadFolders>
