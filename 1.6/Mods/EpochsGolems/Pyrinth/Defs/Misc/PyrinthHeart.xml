@@ -36,10 +36,14 @@
         <spawnThingOnRemoved>ISA_Golem_PyrinthHeart</spawnThingOnRemoved>
         <stages>
             <li>
-		        	<statFactors>
-				        <IncomingDamageFactor>1.1</IncomingDamageFactor>
-			          <ComfyTemperatureMin>1.5</ComfyTemperatureMin>
-              </statFactors>
+		    	<statFactors>
+					<IncomingDamageFactor>1.1</IncomingDamageFactor>
+            	</statFactors>
+            </li>
+			<li>
+                <statOffsets>
+                	<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+            	</statOffsets>
             </li>
         </stages>
         <comps>
