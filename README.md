@@ -2,9 +2,12 @@
 Patches and additions to the Epochs series by Detvisor.
 
 # Ideas for possible next updates
--
+- Check if animal handling is still bugged on asimov side (enable it for clay golems if fixed, it got stucked while trying to train animals)
 
 # Old updates
+
+25/05/2026
+- Reinstated ability to mine for clay golems because animal handling is bugged on asimov side (it gets stucked while trying to train animals)
 
 14/02/2026
 
