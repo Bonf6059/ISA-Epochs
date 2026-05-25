@@ -35,7 +35,7 @@
 
 <!-- Replace mining job for animals handling to clay golem -->
 	
-	<Operation Class="PatchOperationReplace">
+<!--	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="DV_Golem_Clay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/enabledWorkTypes</xpath>
 		<value>
       		<enabledWorkTypes>
@@ -57,6 +57,6 @@
 				<level>6</level>
 			</li>
 		</value>
-	</Operation>
+	</Operation>	-->
 
 </Patch>
