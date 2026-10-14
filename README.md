@@ -6,6 +6,9 @@ Patches and additions to the Epochs series by Detvisor.
 
 # Old updates
 
+14/10/2026
+- Added 1.7 support
+
 25/05/2026
 - Reinstated ability to mine for clay golems because animal handling is bugged on asimov side (it gets stucked while trying to train animals)
 
