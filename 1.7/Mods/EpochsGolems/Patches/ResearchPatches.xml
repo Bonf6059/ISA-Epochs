@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+<!-- Change amount of research needed -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_BasicGolemancy"]/baseCost</xpath>
+		  <value>
+			  <baseCost>1000</baseCost>
+		  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_GolemancyGear"]/baseCost</xpath>
+		  <value>
+			  <baseCost>1200</baseCost>
+		  </value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="DV_GolemResearch_AdvancedGolemancy"]/baseCost</xpath>
+		  <value>
+			  <baseCost>1500</baseCost>
+		  </value>
+	</Operation>
+
+</Patch>	

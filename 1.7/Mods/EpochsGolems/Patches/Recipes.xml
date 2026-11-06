@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Lower the level needed to make anima dolls -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="DV_Construct_ComponentGolem"]/ingredients</xpath>
+		<value>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li> <!--it gets x10 in game-->
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DV_Clay</li>
+                    </thingDefs>
+                </filter>
+                <count>75</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>DV_Exotic_AnimaDoll</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+		</value>
+	</Operation>
+
+  	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/RecipeDef[defName="DV_Construct_ComponentGolem"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+        <thingDefs>
+            <li>Steel</li>
+            <li>Silver</li>
+            <li>DV_Clay</li>
+            <li>DV_Exotic_AnimaDoll</li>
+        </thingDefs>
+		</value>
+	</Operation>
+
+</Patch>

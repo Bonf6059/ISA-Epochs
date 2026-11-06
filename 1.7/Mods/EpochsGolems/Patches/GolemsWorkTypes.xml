@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!--workTypes
+			Crafting 
+            Mining 
+            Hauling 
+			Doctor 
+            Hunting
+            Construction 
+            Growing
+            BasicWorker 
+            Cooking
+            PlantCutting 
+            Research 
+            Cleaning 
+            Firefighter 
+            Tailoring 
+            Art
+            Smithing 
+            Warden 
+            Handling
+            Childcare
+            Fishing	-->
+
+	
+<!-- Add hauling job to hay golem -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DV_Golem_Hay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/enabledWorkTypes</xpath>
+		<value>
+      		<li>Hauling</li>
+		</value>
+	</Operation>
+
+<!-- Replace mining job for animals handling to clay golem -->
+	
+<!--	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="DV_Golem_Clay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/enabledWorkTypes</xpath>
+		<value>
+      		<enabledWorkTypes>
+			    <li>Firefighter</li>
+			    <li>BasicWorker</li>
+				<li>PlantCutting</li>
+				<li>Handling</li>
+				<li>Hauling</li>
+				<li>Cleaning</li>
+			</enabledWorkTypes>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DV_Golem_Clay"]/comps/li[@Class="Asimov.CompProperties_Automaton"]/skillSettings</xpath>
+		<value>
+			<li>
+				<skill>Animals</skill>
+				<level>6</level>
+			</li>
+		</value>
+	</Operation>	-->
+
+</Patch>
