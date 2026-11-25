@@ -3,9 +3,13 @@ Patches and additions to the Epochs series by Detvisor.
 
 # Ideas for possible next updates
 - Check if animal handling is still bugged on asimov side (enable it for clay golems if fixed, it got stucked while trying to train animals)
-- Cambiare ricetta pemmican se epochs-tallow è installato, richiede x tallow e carne/verdure invece di carne e verdure
+
 
 # Old updates
+
+25/11/2026
+
+- Added alternative pemmican recipes if epochs-tallow is installed, it can be crafted with tallow and either meat or plant food instead of meat and plant food
 
 14/10/2026
 - Added 1.7 support
