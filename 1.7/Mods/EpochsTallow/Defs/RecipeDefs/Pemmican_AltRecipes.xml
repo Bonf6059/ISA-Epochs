@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef Name="TallowPemmicanBase">
+    <defName>ISA_MakeTallowPemmican</defName>
+    <label>make tallow pemmican</label>
+    <description>Make pemmican, a preserved combination of tallow and meat or plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
+    <jobString>Making tallow pemmican.</jobString>
+    <workAmount>700</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <recipeUsers>
+		<li>FueledStove</li>
+		<li>ElectricStove</li>
+	</recipeUsers>
+	<ingredients>
+    <li>
+       	<filter>
+       		<thingDefs>
+				<li>DV_Tallow</li>
+			</thingDefs>
+       	</filter>
+	<count>0.25</count>
+    </li>
+    <li>
+    	<filter>
+        	<categories>
+        		<li>MeatRaw</li>
+            	<li>PlantFoodRaw</li>
+          	</categories>
+        </filter>
+    	<count>0.25</count>
+    </li>
+    </ingredients>
+    <products>
+      <Pemmican>16</Pemmican>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <thingDefs>
+				<li>DV_Tallow</li>
+			</thingDefs>
+      <disallowedCategories>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <thingDefs>
+				<li>DV_Tallow</li>
+			</thingDefs>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+    <displayPriority>1440</displayPriority>
+  </RecipeDef>
+
+<!-- Bulk -->
+
+  <RecipeDef ParentName="TallowPemmicanBase">
+    <defName>ISA_MakeTallowPemmicanBulk</defName>
+    <label>make bulk tallow pemmican x 4</label>
+    <jobString>Making bulk tallow pemmican.</jobString>
+    <workAmount>2800</workAmount>
+    <ingredients>
+    <li>
+        <filter>
+    		<thingDefs>
+				<li>DV_Tallow</li>
+			</thingDefs>
+        </filter>
+        <count>1</count>
+    </li>
+    <li>
+    	<filter>
+        	<categories>
+            	<li>MeatRaw</li>
+            	<li>PlantFoodRaw</li>
+          	</categories>
+        </filter>
+        <count>1</count>
+    </li>
+    </ingredients>
+    <products>
+      <Pemmican>64</Pemmican>
+    </products>
+    <displayPriority>1450</displayPriority>
+  </RecipeDef>
+  
+</Defs>
