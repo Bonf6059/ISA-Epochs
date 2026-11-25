@@ -2,7 +2,7 @@
 Patches and additions to the Epochs series by Detvisor.
 
 # Ideas for possible next updates
-- Check if animal handling is still bugged on asimov side (enable it for clay golems if fixed, it got stucked while trying to train animals) - temporarily enabled the patch to try find a fix
+- Check if animal handling is still bugged on asimov side (enable it for clay golems if fixed, it got stucked while trying to train animals) - temporarily enabled the patch to try find a fix, log in GPT with 1210 and paste the error log in chat
 
 
 # Old updates
